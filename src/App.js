@@ -31,6 +31,7 @@ function App() {
 
     if (isDuplicate) {
       alert("You have already used this number");
+      setWon(false);
       return;
     } else {
       localStorage.setItem(
